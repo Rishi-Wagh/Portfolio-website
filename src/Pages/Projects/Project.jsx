@@ -30,12 +30,24 @@ const Project = ({scrollPosition}) => {
                  <div><ArrowOutwardIcon /></div>
               </div>
             </div>
+            {/*2nd project */}
             <div className={scrollTo > 28 ? "projectContainer container2" : 'c-d-none'}>
             <div className="projectImage2"></div>
               <div className="projectTitle" onClick={()=>{navigate('/projectDesc?i=1')}}>
                 <div>
                  <div className="projectHead">Home Sweet Home Estate </div>
                   <div className="projectDesc">A Real Estate Web App</div>  
+                  </div>
+                  <div><ArrowOutwardIcon /></div> 
+              </div>
+              </div>
+              {/*3rd project */}
+              <div className={scrollTo > 33 ? "projectContainer container3" : 'c-d-none'}>
+            <div className="projectImage3"></div>
+              <div className="projectTitle" onClick={()=>{navigate('/projectDesc?i=2')}}>
+                <div>
+                 <div className="projectHead">Conectopedia </div>
+                  <div className="projectDesc">A Video calling Web App</div>  
                   </div>
                   <div><ArrowOutwardIcon /></div> 
               </div>

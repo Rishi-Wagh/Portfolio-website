@@ -1,11 +1,7 @@
 
 
 .profile {
-<<<<<<< HEAD
-    background-image: url('profileimg.jpg');
-=======
-    background-image: url('./public/profileimg.jpg');
->>>>>>> e5d0f308490594071c424459370ea4967896d731
+    background-image: url('/profileimg.jpg');
     border: 5px solid gray;
     border-radius: 50%;
     background-position: center;

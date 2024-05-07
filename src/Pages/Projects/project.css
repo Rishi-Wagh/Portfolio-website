@@ -3,7 +3,7 @@
     color: white;
     display: flex;
     flex-direction: column;
-    height: 110vh;
+    height: 180vh;
     overflow-y: hidden;
 }
 
@@ -97,6 +97,25 @@
   }
 }
 
+.container3{
+  animation: fade-in-left 0.6s cubic-bezier(0.390, 0.575, 0.565, 1.000) 0.5s both;
+ }
+
+ .c-d-none{
+  display: none;
+ }
+
+ @keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
  .projectImage1{
    height: 500px;
    width: 560px;
@@ -111,6 +130,16 @@
   height: 500px;
   width: 560px;
   background-image: url('/projects/HSHestate.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 105% 100%;
+  filter: contrast(105%)
+}
+
+.projectImage3{
+  height: 500px;
+  width: 560px;
+  background-image: url('/projects/Connect(1).png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 105% 100%;
@@ -156,7 +185,7 @@
 
 .blurCircle{
   position: absolute;
-  top: 57%;
+  top: 30%;
   left: 33%;
   height: 500px;
   width: 500px;

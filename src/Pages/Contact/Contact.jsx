@@ -22,7 +22,7 @@ const Contact = ({scrollPosition}) => {
 
   return (
     <div className='contact-page'> 
-         <div className="contact-container" style={{zIndex: (scrollTo < 42 ? '-5' : '0')}}>
+         <div className="contact-container" style={{zIndex: (scrollTo < 50 ? '-5' : '0')}}>
             <div className="contact-title">HIRE ME</div>
             <div className="contact-intro">I design and code beautifully simple things and I love what I do. Just simple like that!</div>
 
