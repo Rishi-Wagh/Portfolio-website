@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './home.css';
 import About from "../About/About";
+import { Link } from "react-router-dom";
 
 const Home = ({scrollPosition , setScrollPosition}) => {
  
@@ -48,14 +49,18 @@ const Home = ({scrollPosition , setScrollPosition}) => {
           style={{
           position: 'fixed',
           whiteSpace: "nowrap",
-          top: '340px',
-          fontSize: '30px',
+          top: '367px',
+          fontSize: '20px',
           fontFamily: 'sans-serif',
           fontWeight: '600',
-          left: `${530-(scrollPosition * 0.6)}px`,
+          left: `${420-(scrollPosition * 0.6)}px`,
           }}
-          className="name-text">
-          hello
+          className="name-text-cv">
+           <Link to="https://docs.google.com/document/d/1JtKnWa7_16Gy4as36_xbMDCVHJpB5Q9Y3Ir_Pp2FHCY/edit?usp=sharing" 
+               target="_blank"
+               className="cv-link" >
+               Download CV
+               </Link>    
         </div>
 
         {/*Image dispaly*/}
@@ -77,7 +82,7 @@ const Home = ({scrollPosition , setScrollPosition}) => {
           style={{
           position: 'fixed',
           whiteSpace: "nowrap",
-          top: '340px',
+          top: '367px',
           fontSize: '30px',
           fontFamily: 'sans-serif',
           fontWeight: '600',

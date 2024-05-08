@@ -18,12 +18,12 @@ const ImageSlider = ({images}) => {
             <div className={sliderPosition == 24 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(24)}></div>
             <div className={sliderPosition == 48 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(48)}></div>
             <div className={sliderPosition == 72 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(72)}></div>
-            {images.length > 7 && images.length < 9 ?
-             (<div className={sliderPosition == 96 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(96)}></div>) :
-             (
-              <>
+            {images.length > 7 && images.length < 9 &&
+             (<div className={sliderPosition == 96 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(96)}></div>) }
+            {images.length > 8 && (
+               <>
               <div className={sliderPosition == 96 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(96)}></div>
-              <div className={sliderPosition == 120 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(120)}></div>
+              <div className={sliderPosition == 121 ? "active-circle" : "circle"} onClick={()=>setSliderPosition(121)}></div>
               </>
              )
              }

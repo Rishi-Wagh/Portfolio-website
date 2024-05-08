@@ -9,5 +9,18 @@
     background-repeat: no-repeat;
 }
 
+.name-text-cv{
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    color: black;
+    background-color: rgb(197, 197, 197);
+}
+
+.cv-link{
+    all:unset;
+    cursor: pointer;
+}
+
 
 

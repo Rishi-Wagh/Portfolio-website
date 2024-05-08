@@ -41,10 +41,10 @@ const projects = [
       },
       {
         'title': 'Conectopedia',
-        mainImg: 'projects/Connect(1).png',
+        mainImg: '/public/projectsConnect(1).png',
         category: 'A Video Calling Platform',
-        desc: ['HomeSweetHome Estate is a cutting-edge real estate platform built on the MERN (MongoDB, Express.js, React, Node.js) stack, incorporating Firebase, Google OAuth, and Vite for secure and seamless user access. This project offers a sophisticated user experience, with features for user authentication, secure data storage, and efficient token-based authentication using JWT.',
-            'Javascript, React Js, Vite client, Context Api, Redux/Redux-toolkit, Sass, Node Js, Express, Rest Api,  MongoDB, Google Firebase, JWT-token', ],
+        desc: ['Built with the latest Next.js and TypeScript, this project replicates Zoom, a widely used video conferencing tool. It enables users to securely log in, create meetings and access various meeting functionalities such as recording, screen sharing, and managing participants.',
+            'TypeScript, Next JS, Tailwind CSS, Shadcn (UI library), Clerk(Authentication), getstream ', ],
         images: ['projects/Connect(1).png',
         'projects/Connect(2).png',
         'projects/Connect(3).png',
