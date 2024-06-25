@@ -23,7 +23,7 @@ const About = () => {
 
           }}>
          <p>
-          Welcome to my portfolio website! As a skilled Full Stack Developer with over 6 months of professional
+          Welcome to my portfolio website! As a skilled Full Stack Developer with over 1.6 months of professional
           experience and more than 1 year dedicated to mastering the MERN (MongoDB, Express.js, React.js, Node.js)
           stack through continuous learning and personal projects, I am passionate about creating dynamic and
           innovative web solutions.
